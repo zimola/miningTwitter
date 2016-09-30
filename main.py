@@ -11,7 +11,7 @@ import MySQLdb
 
 ##---- SET UP DATABASE CONNECTION -----#
 #connect to db
-db = MySQLdb.Connection(host="localhost", user="root", passwd="thekindisdead", db="halifax")
+db = MySQLdb.Connection(host="localhost", user="root", passwd="XXXXXXXXXX", db="database_name")
 db.set_character_set('utf8')
 
 #create a cursor
